@@ -60,7 +60,7 @@ img {
 
 .button {
     padding: 10px;
-    font-size: 13px;
+    font-size: 16px;
     line-height: 20px;
     color: #FFFFFF;
     background-color: #5a8efd;
@@ -74,8 +74,21 @@ img {
     background-color: #FFFFFF;
 
 }
-
+p{
+    font-family : Source Sans Variable;
+    font-weight : bold;
+    font-size : 18px;
+    color : #535a69;
+    
+}
 /* menu */
+.header{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: #46b5ff;
+    
+}
 .header__conteiner {
     display: flex;
     justify-content: space-between;
@@ -112,7 +125,9 @@ img {
 
 
 }
-
+.menu__link{
+    color: #fff;
+}
 @media (max-width:1254px) {
     .header__conteiner {
         flex-direction: column;
@@ -234,7 +249,46 @@ img {
 
 
 /* info  */
+.info{
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.info__content{
+flex: 0 0 50%;
+}
+.info__content-title{
+    font-family: 'Source Sans Pro', Arial, Helvetica, sans-serif;
+    font-weight : 700;
+    font-size : 65px;
+    color : #EC6D5C;
+   
+}
+.info__content-text{
+    margin-bottom:  50px;
+}
+ .info__button{
+    background: linear-gradient(90deg, #ffa26e, #f68b67, #ee715f);/* угол поворота */
+    background-repeat: no-repeat;
+    background-size: cover;  
+    padding: 15px;
+    color: #fff;
+    border-radius: 25px;
+    
+ }
+ .info__button:hover{  
+    padding: 15px;
+    color: #EC6D5C;
+    border: 1px solid #EC6D5C;
+    background: none;
+    border-radius: 25px;
+ }  
+.info__img{
+    flex: 0 0 50%; 
+}
 /* about  */
+
 /* service */
 /* receive  */
 /* form   */
