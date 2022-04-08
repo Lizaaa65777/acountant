@@ -127,15 +127,22 @@ img {
     .menu__item {
         margin-right: 15px;
     }
+    .wrapper {
+        padding: 2% 5%;
+      }
+
 }
 @media (max-width:768px) {
     .header__conteiner {
         flex-direction: row;
         align-items: center;
     }
- .header__button{
-       flex: 0 0 50px; 
+ .header__button-btn {
+       flex: 0 0 150px; 
     }
+    .header__button {
+        flex: 0 0 30px; 
+     }
     .menu__body {
         position: fixed;
         top: 0;
