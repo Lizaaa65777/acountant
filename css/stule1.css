@@ -309,7 +309,9 @@ flex: 0 0 40%;
 @media (min-width:320px)and (max-width:480px) {
     .info__content-title{
         font-size: 36px;
+      
     }
+ 
     .info__button{
         font-size: 16px;
     }
@@ -358,6 +360,7 @@ flex: 0 0 40%;
       }
      .section-title{
          font-size: 30px;
+         margin-bottom: 15px;
      } 
 
 }
