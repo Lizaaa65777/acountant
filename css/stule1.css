@@ -345,16 +345,16 @@ flex: 0 0 40%;
    .about__content{
        margin-top: 50px;
    }
-
+.about__img{
+        display: none;
+    }
 }
 
-@media (min-width:320px)and (max-width:480px) {
+@media (min-width:320px)and (max-width:600px) {
     .about__content-text{
         font-size: 16px;
     }
-    .about__img{
-        display: none;
-    }
+    
     .about {
         margin-top: 0px;
       }
